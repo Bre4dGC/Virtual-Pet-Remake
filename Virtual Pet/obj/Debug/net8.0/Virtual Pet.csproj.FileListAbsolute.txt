@@ -12,3 +12,4 @@ P:\C# Project\Console project\Virtual Pet\Virtual Pet\obj\Debug\net8.0\refint\Vi
 P:\C# Project\Console project\Virtual Pet\Virtual Pet\obj\Debug\net8.0\Virtual Pet.pdb
 P:\C# Project\Console project\Virtual Pet\Virtual Pet\obj\Debug\net8.0\Virtual Pet.genruntimeconfig.cache
 P:\C# Project\Console project\Virtual Pet\Virtual Pet\obj\Debug\net8.0\ref\Virtual Pet.dll
+P:\C# Project\Console project\Virtual Pet\Virtual Pet\obj\Debug\net8.0\Virtual Pet.sourcelink.json

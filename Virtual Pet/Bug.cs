@@ -11,9 +11,9 @@
         Money += rndMoney.Next(5, 10);
     }
 
-    public static void UpdateDailyFeed(int feed)
+    public static int UpdateDailyFeed(ref int feed)
     {
         Random rndFeed = new Random();
-        feed += rndFeed.Next(5, 10);
+        return feed += rndFeed.Next(5, 10);
     }
 }

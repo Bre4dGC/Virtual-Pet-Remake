@@ -1,4 +1,7 @@
-﻿class Menu
+﻿using System.Diagnostics;
+using System;
+
+class Menu
 {
     private Pet _pet;
     private User _user = new User();
@@ -9,29 +12,29 @@
 
     public Pet SelectPet()
     {
-        Console.CursorVisible = false;
-
-        ConsoleKey keyMenu;
-
-        while ((keyMenu = Console.ReadKey().Key) != ConsoleKey.Enter)
+        while (_pet == null)
         {
-            Console.SetCursorPosition(40, 0);
-            Console.WriteLine("| Choosing a Pet |");
+            Console.CursorLeft = 40;
+            Console.WriteLine("| Select Pet |");
 
-            switch (keyMenu)
+            Console.WriteLine("'1' - Cat, '2' - Dog");
+
+            switch (Console.ReadKey().KeyChar)
             {
-                case ConsoleKey.UpArrow:
-                    Console.WriteLine(">Cat\n Dog");
+                case '1':
                     _pet = new Cat();
                     break;
 
-                case ConsoleKey.DownArrow:
-                    Console.WriteLine(" Cat\n>Dog");
+                case '2':
                     _pet = new Dog();
+                    break;
+
+                default:
+                    Console.Clear();
                     break;
             }
         }
-
+        
         MaxHunger = _pet.Hunger;
         MaxThirst = _pet.Thirst;
 
@@ -39,8 +42,6 @@
 
         return _pet;
     }
-
-    
 
     public void PrintMenu()
     {
@@ -93,7 +94,8 @@
             }
             Console.Clear();
         }
-        
+
+        IfPetDies();
     }
 
     private void DrawMenuGraphics()
@@ -103,6 +105,8 @@
 
         Console.CursorTop = 15;
         Console.WriteLine($"Hunger - {_pet.Hunger}/{MaxHunger}\nThirst - {_pet.Thirst}/{MaxThirst}\n\nDay - {Day}\nMoney - {Bug.Money}\nFeed - {Bug.Eat}\nWater - {Bug.Water}");
+        
+        Console.WriteLine("\n'1' - New Day\n'2' - Give Eat\n'3' - Give Water\n'4' - Buy Feed");
 
         Console.CursorTop = 1;
         Console.Write("> ");
@@ -116,7 +120,44 @@
 
         Bug.UpdateDailyMoney();
 
-        Bug.UpdateDailyFeed(Bug.Eat);
-        Bug.UpdateDailyFeed(Bug.Water); 
+        Bug.UpdateDailyFeed(ref Bug.Eat);
+        Bug.UpdateDailyFeed(ref Bug.Water);
+    }
+
+    private void IfPetDies()
+    {
+        Console.Clear();
+        Console.WriteLine("I`m sorry you... Your pet dead. Press F for respect");
+
+        StartFVideo();
+    }
+
+    private void StartFVideo()
+    {
+        string urlGiveRespect = "https://youtu.be/TtMzTGfs-fc?si=Frbu6ZSA7XSJ0pvZ";
+        string urlNotRespect = "https://youtu.be/R52gjhsRQO8?si=1L1vzdEd69nr4mWQ";
+
+        ConsoleKeyInfo key = Console.ReadKey(true);
+
+        switch (key.Key)
+        {
+            case ConsoleKey.F:
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = "cmd",
+                    Arguments = $"/c start {urlGiveRespect}",
+                    UseShellExecute = true
+                });
+                break;
+
+            default:
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = "cmd",
+                    Arguments = $"/c start {urlNotRespect}",
+                    UseShellExecute = true
+                });
+                break;
+        }
     }
 }

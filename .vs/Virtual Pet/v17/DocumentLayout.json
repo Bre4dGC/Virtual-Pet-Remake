@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{AC70EDEE-6274-44F4-A0F3-853112EE730F}|Virtual Pet\\Virtual Pet.csproj|solutionrelative:virtual pet\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AC70EDEE-6274-44F4-A0F3-853112EE730F}|Virtual Pet\\Virtual Pet.csproj|p:\\c# project\\console project\\virtual pet\\virtual pet\\bug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC70EDEE-6274-44F4-A0F3-853112EE730F}|Virtual Pet\\Virtual Pet.csproj|solutionrelative:virtual pet\\bug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AC70EDEE-6274-44F4-A0F3-853112EE730F}|Virtual Pet\\Virtual Pet.csproj|p:\\c# project\\console project\\virtual pet\\virtual pet\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC70EDEE-6274-44F4-A0F3-853112EE730F}|Virtual Pet\\Virtual Pet.csproj|solutionrelative:virtual pet\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC70EDEE-6274-44F4-A0F3-853112EE730F}|Virtual Pet\\Virtual Pet.csproj|p:\\c# project\\console project\\virtual pet\\virtual pet\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC70EDEE-6274-44F4-A0F3-853112EE730F}|Virtual Pet\\Virtual Pet.csproj|solutionrelative:virtual pet\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|P:\\C# Project\\Console project\\Virtual Pet\\Virtual Pet\\Bug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Virtual Pet\\Bug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,40 +36,40 @@
               "RelativeDocumentMoniker": "Virtual Pet\\Menu.cs",
               "ToolTip": "P:\\C# Project\\Console project\\Virtual Pet\\Virtual Pet\\Menu.cs",
               "RelativeToolTip": "Virtual Pet\\Menu.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAkwBwAAAA0AAAA",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAgwKEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-17T13:03:18.313Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Bug.cs",
               "DocumentMoniker": "P:\\C# Project\\Console project\\Virtual Pet\\Virtual Pet\\Bug.cs",
               "RelativeDocumentMoniker": "Virtual Pet\\Bug.cs",
               "ToolTip": "P:\\C# Project\\Console project\\Virtual Pet\\Virtual Pet\\Bug.cs",
               "RelativeToolTip": "Virtual Pet\\Bug.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAvAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T15:23:57.647Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Pet.cs",
               "DocumentMoniker": "P:\\C# Project\\Console project\\Virtual Pet\\Virtual Pet\\Pet.cs",
               "RelativeDocumentMoniker": "Virtual Pet\\Pet.cs",
               "ToolTip": "P:\\C# Project\\Console project\\Virtual Pet\\Virtual Pet\\Pet.cs",
               "RelativeToolTip": "Virtual Pet\\Pet.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAA6wAcAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-17T13:03:19.135Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "User.cs",
               "DocumentMoniker": "P:\\C# Project\\Console project\\Virtual Pet\\Virtual Pet\\User.cs",
               "RelativeDocumentMoniker": "Virtual Pet\\User.cs",
